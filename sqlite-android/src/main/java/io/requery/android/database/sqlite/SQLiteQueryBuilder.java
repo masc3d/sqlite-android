@@ -21,7 +21,6 @@ import android.database.Cursor;
 import android.database.DatabaseUtils;
 import android.os.OperationCanceledException;
 import android.provider.BaseColumns;
-import android.support.v4.os.CancellationSignal;
 import android.text.TextUtils;
 import android.util.Log;
 
@@ -30,6 +29,8 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 import java.util.regex.Pattern;
+
+import androidx.core.os.CancellationSignal;
 
 /**
  * This is a convience class that helps build SQL queries to be sent to

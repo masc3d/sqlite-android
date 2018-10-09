@@ -1,8 +1,8 @@
 package io.requery.android.database.sqlite;
 
-import android.arch.persistence.db.SupportSQLiteOpenHelper;
-import android.arch.persistence.db.SupportSQLiteOpenHelper.Callback;
-import android.arch.persistence.db.SupportSQLiteOpenHelper.Configuration;
+import androidx.sqlite.db.SupportSQLiteOpenHelper;
+import androidx.sqlite.db.SupportSQLiteOpenHelper.Callback;
+import androidx.sqlite.db.SupportSQLiteOpenHelper.Configuration;
 import android.content.Context;
 
 import java.util.Collections;
