@@ -14,7 +14,7 @@ version = '3.25.2'
 description = 'Android SQLite compatibility library'
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 28
     buildToolsVersion "28.0.3"
 
     defaultConfig {
