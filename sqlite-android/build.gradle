@@ -14,10 +14,10 @@ version = '3.25.2'
 description = 'Android SQLite compatibility library'
 
 android {
-    compileSdkVersion 28
     buildToolsVersion "28.0.3"
 
     defaultConfig {
+        compileSdkVersion 28
         minSdkVersion 14
         versionName project.version
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -28,14 +28,13 @@ android {
     }
     buildTypes {
         release {
-            compileSdkVersion 28
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
 
         debug {
             // TODO: tests require migration to androidx
-            // Compile against older sdk version compatible with depreated test classes eg `AndroidTestCase`
+            // Compile against older sdk version compatible with deprecated test classes eg `AndroidTestCase`
             compileSdkVersion 26
         }
     }
